@@ -5,11 +5,18 @@ using UnityEngine;
 
 public class FloorStorage : MonoBehaviour
 {
+    [SerializeField] private Data _data;
+    
     private Floor[] _floors;
 
     private void Awake()
     {
         _floors = FindObjectsOfType<Floor>();
+    }
+
+    private void Start()
+    {
+        _data.ChangeMainMap(GetFloorOfNumber(1).GetSprite());
     }
 
     public Floor[] GetListFloors()

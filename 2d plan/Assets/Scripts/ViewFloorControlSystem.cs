@@ -8,7 +8,7 @@ public class ViewFloorControlSystem : MonoBehaviour
 {
     [SerializeField] private Button _buttonNext;
     [SerializeField] private Button _buttonPrevious;
-    
+
     private FloorStorage _floorStorage;
     private TextFloorSetter _textFloorSetter;
     private ZoomControl _zoomControl;
