@@ -1,0 +1,4 @@
+#Sat Sep 30 13:42:59 MSK 2023
+base.0=D\:\\Gitfolder\\Plan escape 3d\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

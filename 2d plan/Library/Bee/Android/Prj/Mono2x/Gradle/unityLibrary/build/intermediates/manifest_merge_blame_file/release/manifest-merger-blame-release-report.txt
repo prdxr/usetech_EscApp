@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="33" />
+8-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+11-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+13-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+14    <uses-feature
+14-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+16        android:required="false" />
+16-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:64-88
+17    <uses-feature
+17-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-88
+18        android:name="android.hardware.touchscreen"
+18-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-60
+19        android:required="false" />
+19-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:61-85
+20    <uses-feature
+20-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+22        android:required="false" />
+22-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+23    <uses-feature
+23-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+25        android:required="false" />
+25-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+26
+27    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+27-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-75
+27-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:20-72
+28
+29    <application android:extractNativeLibs="true" >
+29-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-32:17
+29-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+30        <meta-data
+30-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+31            android:name="unity.splash-mode"
+31-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+32            android:value="0" />
+32-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+33        <meta-data
+33-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+34            android:name="unity.splash-enable"
+34-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+35            android:value="True" />
+35-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+36        <meta-data
+36-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-78
+37            android:name="unity.launch-fullscreen"
+37-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-54
+38            android:value="True" />
+38-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+39        <meta-data
+39-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+40            android:name="unity.allow-resizable-window"
+40-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-59
+41            android:value="False" />
+41-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:60-81
+42        <meta-data
+42-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+43            android:name="notch.config"
+43-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+44            android:value="portrait|landscape" />
+44-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+45        <meta-data
+45-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+46            android:name="unity.auto-report-fully-drawn"
+46-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+47            android:value="true" />
+47-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+48
+49        <activity
+49-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-24:16
+50            android:name="com.unity3d.player.UnityPlayerActivity"
+50-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:15-68
+51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+51-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:180-361
+52            android:exported="true"
+52-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:433-456
+53            android:hardwareAccelerated="false"
+53-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:397-432
+54            android:launchMode="singleTask"
+54-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:148-179
+55            android:resizeableActivity="false"
+55-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:362-396
+56            android:screenOrientation="fullUser"
+56-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:111-147
+57            android:theme="@style/UnityThemeSelector" >
+57-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:69-110
+58            <intent-filter>
+58-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:7-21:23
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-69
+59-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:19-66
+60
+61                <action android:name="android.intent.action.MAIN" />
+61-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-61
+61-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-58
+62            </intent-filter>
+63
+64            <meta-data
+64-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-82
+65                android:name="unityplayer.UnityActivity"
+65-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-58
+66                android:value="true" />
+66-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:59-79
+67            <meta-data
+67-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:7-70
+68                android:name="notch_support"
+68-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:18-46
+69                android:value="true" />
+69-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:47-67
+70        </activity>
+71
+72        <receiver
+72-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-113
+73            android:name="com.unity.androidnotifications.UnityNotificationManager"
+73-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:15-85
+74            android:exported="false" />
+74-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:86-110
+75        <receiver
+75-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-30:16
+76            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+76-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:15-99
+77            android:enabled="false"
+77-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:100-123
+78            android:exported="false" >
+78-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:124-148
+79            <intent-filter>
+79-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-29:23
+80                <action android:name="android.intent.action.BOOT_COMPLETED" />
+80-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:9-71
+80-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-68
+81            </intent-filter>
+82        </receiver>
+83
+84        <meta-data
+84-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:5-99
+85            android:name="com.unity.androidnotifications.exact_scheduling"
+85-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:16-78
+86            android:value="0" />
+86-->D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:79-96
+87    </application>
+88
+89</manifest>
