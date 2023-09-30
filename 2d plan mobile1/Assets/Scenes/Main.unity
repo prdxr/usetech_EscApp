@@ -204,7 +204,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 43405121}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1972296726}
+        m_TargetAssemblyTypeName: ZoomControl, Assembly-CSharp
+        m_MethodName: ButtonReactionSetZoom
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &43405121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,13 +546,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 220762129}
+  - component: {fileID: 220762130}
   m_Layer: 0
   m_Name: 2 floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &220762129
 Transform:
   m_ObjectHideFlags: 0
@@ -561,6 +574,19 @@ Transform:
   - {fileID: 911533131}
   m_Father: {fileID: 66042959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &220762130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220762128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf55f5aa5a7b4f4da29803b7de497b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _numberFloor: 2
 --- !u!1 &233461250
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,7 +812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 303316129}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1352949286}
+        m_TargetAssemblyTypeName: ViewFloorControlSystem, Assembly-CSharp
+        m_MethodName: ChangeFloor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &303316129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,6 +947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 394064010}
+  - component: {fileID: 394064011}
   m_Layer: 0
   m_Name: 1 floor
   m_TagString: Untagged
@@ -936,6 +975,19 @@ Transform:
   - {fileID: 1934672829}
   m_Father: {fileID: 66042959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &394064011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394064009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf55f5aa5a7b4f4da29803b7de497b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _numberFloor: 1
 --- !u!1 &418345004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1070,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 418345007}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1352949286}
+        m_TargetAssemblyTypeName: ViewFloorControlSystem, Assembly-CSharp
+        m_MethodName: ChangeFloor
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &418345007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2081,6 +2145,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348515589}
   m_CullTransparentMesh: 1
+--- !u!1 &1352949285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352949287}
+  - component: {fileID: 1352949286}
+  m_Layer: 0
+  m_Name: ViewFloorControlSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1352949286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352949285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0da785612a40ac448aded47a5a2bc4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonNext: {fileID: 418345006}
+  _buttonPrevious: {fileID: 303316128}
+--- !u!4 &1352949287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352949285}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 474.36237, y: 1648.9945, z: -1.2574191}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1358816405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,6 +2277,7 @@ GameObject:
   - component: {fileID: 1414862399}
   - component: {fileID: 1414862401}
   - component: {fileID: 1414862400}
+  - component: {fileID: 1414862402}
   m_Layer: 5
   m_Name: number floor
   m_TagString: Untagged
@@ -2290,6 +2401,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414862398}
   m_CullTransparentMesh: 1
+--- !u!114 &1414862402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414862398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574839ff40bc5d1449e770f898eca680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1418198886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418198888}
+  - component: {fileID: 1418198887}
+  m_Layer: 0
+  m_Name: FloorStorage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1418198887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418198886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8289cf0ad517b4fa408bfa00adb836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1418198888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418198886}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 474.36237, y: 1648.9945, z: -1.2574191}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440278281
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,7 +2538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1440278284}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1972296726}
+        m_TargetAssemblyTypeName: ZoomControl, Assembly-CSharp
+        m_MethodName: ButtonReactionSetZoom
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1440278284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2805,6 +2984,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934672828}
   m_CullTransparentMesh: 1
+--- !u!1 &1972296725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1972296727}
+  - component: {fileID: 1972296726}
+  m_Layer: 0
+  m_Name: ZoomControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1972296726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972296725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9543b051870fdf48916a73c2a7eed18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _slider: {fileID: 2045403896}
+--- !u!4 &1972296727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972296725}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 474.36237, y: 1648.9945, z: -1.2574191}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1979134268
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,13 +3507,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 2123699960}
   m_HandleRect: {fileID: 233461251}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 0.8
+  m_MaxValue: 1.5
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.8
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1972296726}
+        m_TargetAssemblyTypeName: ZoomControl, Assembly-CSharp
+        m_MethodName: SliderReactionSetZoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2123699959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3372,3 +3608,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 271051405}
   - {fileID: 104414393}
+  - {fileID: 1418198888}
+  - {fileID: 1352949287}
+  - {fileID: 1972296727}
