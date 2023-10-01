@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
-      jars="D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\085e673caa103798af26ad93b7194fa5\transformed\out\jars\classes.jar;D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\085e673caa103798af26ad93b7194fa5\transformed\out\jars\libs\classes-2.jar;D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\085e673caa103798af26ad93b7194fa5\transformed\out\jars\libs\unity-classes.jar"
+      name="D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\4c96607a26528fd7f0b0c98c9f643ac2\transformed\out\jars\classes.jar;D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\4c96607a26528fd7f0b0c98c9f643ac2\transformed\out\jars\libs\classes-2.jar;D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\4c96607a26528fd7f0b0c98c9f643ac2\transformed\out\jars\libs\unity-classes.jar"
       resolved="Gradle:unityLibrary:unspecified"
-      folder="D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\085e673caa103798af26ad93b7194fa5\transformed\out"
+      folder="D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\4c96607a26528fd7f0b0c98c9f643ac2\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,50 +13,11 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"
-      jars="D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar"
-      resolved="__local_aars__:D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified"/>
+      name="__local_aars__:D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"
+      jars="D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar"
+      resolved="__local_aars__:D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified"/>
   <library
-      name="__local_aars__:D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
-  <library
-      name=":UnityAds:@aar"
-      jars="C:\Users\Ovsyanka\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\jars\classes.jar;C:\Users\Ovsyanka\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\jars\libs\unity-scaradapter-1920.jar;C:\Users\Ovsyanka\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\jars\libs\unity-scaradapter-1950.jar;C:\Users\Ovsyanka\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\jars\libs\unity-scaradapter-2000.jar;C:\Users\Ovsyanka\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\jars\libs\unity-scaradapter-common.jar"
-      resolved=":UnityAds:"
-      folder="C:\Users\Ovsyanka\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name=":common:@aar"
-      jars="C:\Users\Ovsyanka\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common\jars\classes.jar"
-      resolved=":common:"
-      folder="C:\Users\Ovsyanka\.gradle\caches\transforms-3\79de28caf7dab24c9109c5f436013c4f\transformed\common"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name=":billing-5.1.0:@aar"
-      jars="C:\Users\Ovsyanka\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0\jars\classes.jar"
-      resolved=":billing-5.1.0:"
-      folder="C:\Users\Ovsyanka\.gradle\caches\transforms-3\c28743ae4beba7e25593a8a754aa1c07\transformed\billing-5.1.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="__local_aars__:D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
 </libraries>

@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="D:\Gitfolder\Plan escape 3d\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
+    dir="D:\Gitfolder\2d plan\Library\Bee\Android\Prj\Mono2x\Gradle\launcher"
     name=":launcher"
     type="APP"
     maven="Gradle:launcher:"

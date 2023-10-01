@@ -6,7 +6,7 @@
     <string name="FreeformWindowSize_maximize"/>
     <string name="FreeformWindowSize_phone"/>
     <string name="FreeformWindowSize_tablet"/>
-    <string name="app_name">Plan escape 3d</string>
+    <string name="app_name">EscApp</string>
     <string name="game_view_content_description">Game view</string>
     <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
 </style>

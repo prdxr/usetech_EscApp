@@ -3,9 +3,6 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation(name: 'UnityAds', ext:'aar')
-    implementation(name: 'common', ext:'aar')
-    implementation(name: 'billing-5.1.0', ext:'aar')
 
 }
 
@@ -27,7 +24,7 @@ android {
             abiFilters 'armeabi-v7a'
         }
         versionCode 1
-        versionName '1.0.2'
+        versionName '1.0.1'
         consumerProguardFiles 'proguard-unity.txt'
     }
 

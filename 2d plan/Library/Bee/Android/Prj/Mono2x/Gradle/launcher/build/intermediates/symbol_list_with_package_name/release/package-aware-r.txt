@@ -1,4 +1,4 @@
-com.DefaultCompany.Planescape3d
+com.DefaultCompany.com.unity.template.mobile2D
 id unitySurfaceView
 mipmap app_icon
 mipmap app_icon_round

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Gitfolder\\Plan escape 3d\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v30\\values-v30.xml",
+            "outputFile": "D:\\Gitfolder\\2d plan\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v30\\values-v30.xml",
             "map": [
                 {
-                    "source": "D:\\Gitfolder\\Plan escape 3d\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
+                    "source": "D:\\Gitfolder\\2d plan\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
