@@ -15,7 +15,7 @@ public class InputDataSystem : MonoBehaviour
     
     [Header("Data")]
     [SerializeField] private Data _data;
-    
+    [SerializeField] private AddPointPosition _addPointPosition;
     [SerializeField] private Image _image;
 
     private Vector2 _currentVector2;
@@ -51,6 +51,7 @@ public class InputDataSystem : MonoBehaviour
         if (hit2D != null && hit2D.point!= Vector2.zero)
         {
             ChooseButton(hit2D.point);
+            _addPointPosition.CreatePoint(hit2D.point);
         }
     }
 
